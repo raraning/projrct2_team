@@ -1,0 +1,126 @@
+@charset "UTF-8";
+/* 기본 속성들 */
+	html, body{
+		margin:0;
+		padding:0;
+		font-size:11px;
+		border-spacing:0px;
+		border-collapse:collapse;
+	}
+	input:focus {outline:none;}
+	ul, ol, li {
+		list-style:none;
+	}
+/* a 태그 관련 */
+	a { 
+		text-decoration: none;
+		text-decoration-line : none;
+		color:black;
+	 }
+	a:link { text-decoration: none; }
+	a:visited { text-decoration: none; }
+	a:active { text-decoration: none; }
+
+/*header top*/
+	.headtop{
+		height:30px;
+		background:#f0f0f0;
+		width:1920px;
+	}
+	.htmenu{
+		display:inline-block;
+		vertical-align: middle;
+		line-height: 30px;
+		text-align: center;
+	}
+	.htmempty{
+		width:500px;
+	}
+	.search1{
+		width:454px;
+		height:40px;
+		border:2px solid #ef9696;
+	}
+	.search2{
+		width:400px;
+		height:30px;
+		border:0 solid black;
+		margin-top:5px;
+	}
+	.topmenu{
+		height:85px;
+		width:1920px;
+		box-shadow:0px 2px 3px #ccc;
+	}
+	.sbutton{
+		height:42px;
+		width:44px;
+		background:#ef9696;
+		float:right;
+		margin-bottom:10px;
+	}
+	.sbuttonimg{
+		width:25px;
+		height:25px;
+		margin-top:7px;
+	}
+	.htm2{
+		width:50px;
+	}
+	.htm3{
+		width:50px;
+	}
+	.htm4{
+		width:50px;
+	}
+
+/*카테고리*/
+	.category{
+		width:70px;
+		height:70px;
+		background:#ef9696;
+		cursor:pointer;
+	}
+	
+	.categorymenu1{
+		width:100px;
+		height:198px;
+		border:1px solid black;
+		text-align:center;
+		line-height:33px;
+		display:none;
+		background-color:white;
+		z-index:2;
+		margin-right:200px;
+		margin-top:10px;
+		position:absolute;
+		/*visibility:hidden;*/
+	}
+	
+	.categorymenu1 a{
+		display:block;
+	}
+	
+	.category:hover .categorymenu1{
+		/*visibility:visible;*/
+		width:100px;
+		height:198px;
+		border:1px solid black;
+		text-align:center;
+		line-height:33px;
+		display:block;
+		background-color:white;
+		z-index:2;
+		margin-right:200px;
+		margin-top:10px;
+		position:absolute;
+	}
+	
+	.pro_menu:hover{
+		background:#ef9696;
+		font-weight:bold;
+		font-size:13px;
+	}
+	
+
+	

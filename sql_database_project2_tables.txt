@@ -1,0 +1,154 @@
+create table member(
+	uid int(100) auto_increment,
+	id varchar(20) not null default '',
+	pass varchar(20) not null default '',
+	name varchar(12) not null default '',
+	birth varchar(10) not null default '',
+	gender enum('M','F') default 'F',
+	email varchar(40) not null default '',  
+	zipcode varchar(7) default '', 
+	zipcode1 varchar(255) default '',
+	zipcode2 varchar(255) default '',
+	zipcode3 varchar(255) default '',
+	zipcode4 varchar(255) default '',
+	level varchar(4) default '1',
+	sell_buy enum('X','Y') default 'X',
+	none enum('1','2','3') default '1', 
+	point int(20) default '0',
+	pro_manuname varchar(50) default '',
+	pro_salname varchar(50) default '',
+	date varchar(30) default '',
+	phone varchar(20) not null,
+	primary key(uid)
+);
+
+
+판매자가 등록하는 판매상품 -> 구매페이지에 표시
+CREATE TABLE `product` ( 
+  `pro_id` varchar(20) DEFAULT '',
+  `pro_uid` int NOT NULL AUTO_INCREMENT,
+  `pro_manuname` varchar(50) DEFAULT '',
+  `pro_salname` varchar(50) DEFAULT '',
+  `pro_name` varchar(200) DEFAULT '',
+  `pro_class` enum('1','2','3') DEFAULT '1',
+  `pro_category` varchar(200) DEFAULT '',
+  `pro_available` int(11) DEFAULT 0,
+  `pro_price` int DEFAULT 0,
+  `pro_indate` varchar(20) DEFAULT '',
+  file1 varchar(100) default '',
+  file1_o varchar(100) default '',
+  file1_s varchar(100) default '',
+  file2 varchar(100) default '',
+  file2_o varchar(100) default '',
+  file2_s varchar(100) default '',
+  file3 varchar(100) default '',
+  file3_o varchar(100) default '',
+  file3_s varchar(100) default '',
+  `pro_detailing` longtext, 
+  pro_point int(11) default 0,
+  PRIMARY KEY (`pro_uid`)
+);
+
+
+장바구니
+create table cart(
+   uid int(100) NOT NULL AUTO_INCREMENT,
+   `pro_uid` int NOT NULL,
+   `pro_name` varchar(200) DEFAULT '',
+   `pro_id` varchar(20) DEFAULT '',
+   `id` varchar(20) DEFAULT '',
+   cart_session varchar(200) DEFAULT '',
+   `pro_price` int DEFAULT 0, 
+   pro_point int(11) default 0,
+   pro_count int default 1, 
+   pay_ok enum('1','2','3','4') default '3',   
+   PRIMARY KEY (`uid`)
+);
+
+결제정보
+create table order2(
+   uid int auto_increment,
+   pay_ok enum('1','2','3','4') default '2',   
+   howpay varchar(20) not null default '무통장', 
+   howpay_num varchar(20) not null , 
+   bank1 varchar(20) not null ,
+   bank1_get_name varchar(20) not null ,
+   bank1_give_name varchar(20) not null ,
+   cart_session varchar(200) default '',
+   get_name varchar(12) ,
+   get_phone varchar(20) ,
+   get_zipcode varchar(255) ,
+   get_zipcode1 varchar(255) ,
+   get_zipcode2 varchar(255) ,
+   get_zipcode3 varchar(255) ,
+   get_zipcode4 varchar(255) ,
+   id varchar(20) not null default '',
+   name varchar(12) not null default '',
+   email varchar(40) , 
+   phone varchar(20) ,
+   zipcode varchar(255) ,
+   zipcode1 varchar(255) ,
+   zipcode2 varchar(255) ,
+   zipcode3 varchar(255) ,
+   zipcode4 varchar(255) ,
+   message text,
+   primary key (uid)
+);
+
+
+리뷰
+CREATE TABLE review (
+  `pro_uid` int(11) NOT NULL,
+  `tb_uid` int(11) NOT NULL AUTO_INCREMENT,
+  `tb_id` varchar(20) NOT NULL DEFAULT '',
+  `tb_name` varchar(10) NOT NULL DEFAULT '',
+  `tb_comment` text,
+  `tb_date` varchar(30) NOT NULL DEFAULT '',
+  pro_like enum('1','2') default '1', 
+  re_like enum('1','2') default '1',
+  file1 varchar(100) default '',
+  file1_o varchar(100) default '',
+  file1_s varchar(100) default '',
+  PRIMARY KEY (`tb_uid`)
+);
+
+상품문의
+CREATE TABLE productqna (
+  `uid` int NOT NULL AUTO_INCREMENT,
+  `pro_uid` int(11) NOT NULL,
+  `id` varchar(16) NOT NULL DEFAULT '',
+  `name` varchar(20) NOT NULL DEFAULT '',
+  `comment` text,
+  `signdate` varchar(30) DEFAULT '',
+  qna enum('1','2') DEFAULT '1',
+  `fid` int DEFAULT '0',
+  `thread` varchar(20) DEFAULT '',
+  PRIMARY KEY (`uid`)
+);
+
+제품 찜
+create table prosave(
+  uid int(100) NOT NULL AUTO_INCREMENT,
+  `pro_uid` int NOT NULL,
+  `pro_name` varchar(200) DEFAULT '',
+  `pro_id` varchar(20) DEFAULT '',
+  `id` varchar(20) DEFAULT '',
+  cart_session varchar(200) DEFAULT '',
+  `pro_price` int DEFAULT 0, 
+  pro_point int(11) default 0,
+  pro_count int default 1, 
+  pay_ok enum('1','2','3','4') default '3',   
+  PRIMARY KEY (`uid`)
+);
+
+레시피 댓글
+CREATE TABLE recipe_comment (
+  `uid` int(11) NOT NULL AUTO_INCREMENT,
+  `recipe_table` varchar(20) NOT NULL DEFAULT '',
+  `recipe_uid` int(11) ,
+  `recipe_id` varchar(20) NOT NULL DEFAULT '',
+  `recipe_name` varchar(10) NOT NULL DEFAULT '',
+  `recipe_comment` text,
+  `recipe_date` varchar(30) NOT NULL DEFAULT '',
+  PRIMARY KEY (`uid`)
+);

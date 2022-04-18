@@ -1,0 +1,415 @@
+@charset "UTF-8";
+
+/*=========index==============*/
+
+.all_List_box{
+	width:1300px;
+	height:60px;
+	margin: auto;
+	background-color: #ff9999; 
+}
+
+.List_box{
+	width: 125px;
+	height: 60px;
+	margin: auto;
+	text-align:center;
+	line-height:60px;	/*글자 세로 가운데 정렬*/
+	font-size:13pt;
+	font-weight: bold;
+	background-color: #abbfd0;
+	float: left; 
+	cursor: pointer; /*마우스 손까락*/
+}
+
+/*=========index 끝==============*/
+
+/*==============리스트==================================*/
+.gongji_max_box{
+	width:1635px;
+	height:60px;
+	background-color: #abbfd0;
+	margin: auto;
+	border-bottom:1px solid black;
+}
+
+.gongji_lest_box{
+	width:130px;
+	height:60px;
+	background-color: #ff9999;
+	float: left;
+	border-right:1px solid black;
+	text-align: center;
+	line-height:60px;	/*글자 세로 가운데 정렬*/
+	font-size:17pt;
+	font-weight: bold;
+}
+
+.gongji_lest2_box{
+	width:300px;
+	height:60px;
+	background-color: #ff9999;
+	float: left;
+	border-right:1px solid black;
+	text-align: center;
+	line-height:60px;	/*글자 세로 가운데 정렬*/
+	font-size:17pt;
+	font-weight: bold;
+}
+
+.gongji_lest3_box{
+	width:1200px;
+	height:60px;
+	background-color: #ff9999;
+	float: left;
+	border-right:1px solid black;
+	text-align: center;
+	line-height:60px;	/*글자 세로 가운데 정렬*/
+	font-size:17pt;
+	font-weight: bold;
+}
+
+.gongji_box{
+	width:1635px;
+	height:360px;
+	background-color: #abbfd0;
+	margin: auto;
+	border-bottom:1px solid black;
+}
+.gongji_max_box2{
+	width:1635px;
+	height:50px;
+	background-color: #abbfd0;
+	margin: auto;
+	border-bottom:1px solid black;
+}
+
+.gongji_lest_box2{
+	width:130px;
+	height:50px;
+	background-color: #ff9999;
+	float: left;
+	border-right:1px solid black;
+	text-align: center;
+	line-height:50px;	/*글자 세로 가운데 정렬*/
+	font-size:12pt;
+	font-weight: bold;
+}
+
+.gongji_lest2_box2{
+	width:300px;
+	height:50px;
+	background-color: #ff9999;
+	float: left;
+	border-right:1px solid black;
+	text-align: center;
+	line-height:50px;	/*글자 세로 가운데 정렬*/
+	font-size:12pt;
+	font-weight: bold;
+}
+
+.gongji_lest_box3{
+	width:1200px;
+	height:50px;
+	background-color: #ff9999;
+	float: left;
+	border-right:1px solid black;
+	line-height:50px;	/*글자 세로 가운데 정렬*/
+	font-size:16pt;
+	font-weight: bold;
+}
+.gongji_page_box{
+	width:1635px;
+	height:50px;
+	background-color: #abbfd0;
+	margin: auto;
+	border-bottom:1px solid black;
+	text-align: center;
+	line-height:50px;	/*글자 세로 가운데 정렬*/
+	font-size:12pt;
+	font-weight: bold;
+}
+
+.gongji_page_left{
+	width:815px;
+	height:50px;
+	background-color: #abbfd0;
+	margin: auto;
+	border-bottom:1px solid black;
+	line-height:50px;	/*글자 세로 가운데 정렬*/
+	font-size:12pt;
+	font-weight: bold;
+	float: left;
+}
+.gongji_page_right{
+	width:815px;
+	height:50px;
+	background-color: #abbfd0;
+	margin: auto;
+	border-bottom:1px solid black;
+	text-align: right;
+	line-height:50px;	/*글자 세로 가운데 정렬*/
+	font-size:12pt;
+	font-weight: bold;
+	float: left;
+}
+
+.gongji_button{
+	width:60px;
+	height:30px;
+	font-size:13pt;
+}
+/*==============리스트 끝==================================*/
+
+
+/*=================글쓰기===================*/
+.gon_main_box{
+	width:1000px;
+	height:560px;
+	margin: auto;
+	background-color: #abbfd0; 
+}
+
+.gon_foll_name_box{
+	width:1000px;
+	height:60px;
+	margin: auto;
+	background-color: #ff9999;
+	border-bottom: 1px solid black; 
+}
+
+.gon_name_box{
+	width:200px;
+	height:60px;
+	margin: auto;
+	background-color: #ff9999;
+	float: left;
+	border-right: 1px solid black; 
+	text-align: center;
+	font-size: 17pt;
+	line-height: 60px;
+	font-weight: bold;
+}
+.gon_name_box2{
+	width:795px;/*border 때문에 5줄임*/
+	height:60px;
+	margin: auto;
+	background-color: #ff9999;
+	float: left;
+	
+}
+
+.gon_name_input{
+	width:100%;/*border 때문에 5줄임*/
+	height:97%;
+	margin: auto;
+	background-color: #ff9999;
+	float: left;
+	font-size: 16pt;
+	font-weight: bold;
+	
+}
+
+.gon_foll_comment_box{
+	width:1000px;
+	height:435px;/*border 때문에 5줄임*/
+	margin: auto;
+	background-color: #ff9999;
+	border-bottom: 1px solid black; 
+}
+
+.gon_comment_box{
+	width:200px;
+	height:435px;
+	margin: auto;
+	background-color: #ff9999;
+	float: left;
+	border-right: 1px solid black; 
+	text-align: center;
+	font-size: 17pt;
+	line-height: 435px;
+	font-weight: bold;
+}
+.gon_comment_box2{
+	width:795px;/*border 때문에 5줄임*/
+	height:435px;
+	margin: auto;
+	background-color: #ff9999;
+	float: left;
+}
+
+.gon_comment_input{
+	width:100%;/*border 때문에 5줄임*/
+	height:100%;
+	margin: auto;
+	background-color: #ff9999;
+	float: left;
+	font-size: 16pt;
+	font-weight: bold;
+	
+}
+
+.gon_foll_button_box{
+	width:1000px;
+	height:60px;
+	margin: auto;
+	border-bottom: 1px solid black; 
+}
+
+.gon_button_box{
+	width:150px;
+	height:50px;
+	margin: auto;
+	text-align: center;
+	font-size: 17pt;
+	line-height: 50px;
+	font-weight: bold;
+}
+
+.gon_page_box{
+	width:1635px;
+	height:40px;
+	background-color: #abbfd0;
+	margin: auto;
+	border-bottom:1px solid black;
+	text-align: center;
+	line-height:40px;	/*글자 세로 가운데 정렬*/
+	font-size:16pt;
+	font-weight: bold;
+}
+/*=================글쓰기 끝===================*/
+
+
+/*---------------------- view--------------------- */
+
+.gon_view_all_box{
+	width:1000px;
+	height:500px;
+	margin: auto;
+	background-color: #abbfd0;
+}
+
+.gon_view_name_box{
+	width: 1000px;
+	height: 55px;
+	margin: auto;
+	text-align:center;
+	line-height:55px;	/*글자 세로 가운데 정렬*/
+	font-size:17pt;
+	font-weight: bold;
+	background-color: #ffffff;
+}
+
+.gon_view_name_box2{
+	width:1000px;
+	height:60px;
+	margin: auto;
+	background-color: #ff9999;
+	border-bottom: 1px solid black;
+}
+
+.gon_view_name_box3{
+	width:1000px;
+	height:380px;
+	margin: auto;
+	background-color: #ff9999;
+	border-bottom: 1px solid black;
+}
+
+.gon_view_subject_box{
+	width:150px;
+	height:60px;
+	background-color: #ff9999;
+	border-right:1px solid black;
+	text-align: center;
+	line-height:60px;	/*글자 세로 가운데 정렬*/
+	font-size:17pt;
+	font-weight: bold;
+	border-right: 1px solid black;
+	float: left;
+}
+
+.gon_view_subject_box2{
+	width:495px;
+	height:60px;
+	background-color: #ff9999;
+	border-right:1px solid black;
+	line-height:60px;	/*글자 세로 가운데 정렬*/
+	font-size:17pt;
+	font-weight: bold;
+	border-right: 1px solid black;
+	float: left;
+}
+
+.gon_view_subject_box3{
+	width:200px;
+	height:60px;
+	background-color: #ff9999;
+	border-right:1px solid black;
+	text-align: center;
+	line-height:60px;	/*글자 세로 가운데 정렬*/
+	font-size:17pt;
+	font-weight: bold;
+	border-right: 1px solid black;
+	float: left;
+}
+
+.gon_view_subject_box4{
+	width:847px;
+	height:60px;
+	background-color: #ff9999;
+	border-right:1px solid black;
+	text-align: center;
+	line-height:60px;	/*글자 세로 가운데 정렬*/
+	font-size:17pt;
+	font-weight: bold;
+	border-right: 1px solid black;
+	float: left;
+}
+
+.gon_view_comment_box{
+	width:150px;
+	height:380px;
+	background-color: #ff9999;
+	border-right:1px solid black;
+	text-align: center;
+	line-height:380px;	/*글자 세로 가운데 정렬*/
+	font-size:17pt;
+	font-weight: bold;
+	border-right: 1px solid black;
+	float: left;
+}
+
+.gon_view_comment_box2{
+	width:847px;
+	height:380px;
+	background-color: #ff9999;
+	border-right:1px solid black;
+	font-size:17pt;
+	font-weight: bold;
+	border-right: 1px solid black;
+	float: left;
+}
+
+.gon_view_listgo{
+	width:500px;
+	height:60px;
+	background-color: #ff9999;
+	line-height: 60px;	/*글자 세로 가운데 정렬*/
+	font-size:17pt;
+	font-weight: bold;
+	float: left;
+}
+
+.gon_view_modify_deletes{
+	width:500px;
+	height:60px;
+	background-color: #ff9999;
+	line-height:60px;	/*글자 세로 가운데 정렬*/
+	text-align: right;
+	font-size:17pt;
+	font-weight: bold;
+	float: left;
+}
+
+/*---------------------- view 끝--------------------- */

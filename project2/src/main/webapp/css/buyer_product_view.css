@@ -1,0 +1,261 @@
+@charset "UTF-8";
+
+/*카테고리*/
+.cate_array1{
+	display:inline-block;
+	width:160px;
+	height:30px;
+	border:1px solid #f0f0f0;
+	font-size:13px;
+	text-align:center;
+	line-height:27px;
+	font-weight:bold;
+}
+
+.cate_array{
+	display:inline-block;
+	width:160px;
+	height:30px;
+	border:1px solid #f0f0f0;
+	font-size:13px;
+	text-align:center;
+	line-height:27px;
+	font-weight:bold;
+}
+
+.cate_array:hover{
+	display:inline-block;
+	width:160px;
+	height:30px;
+	border:1px solid #f0f0f0;
+	font-size:14px;
+	text-align:center;
+	line-height:27px;
+	font-weight:bold;
+	background:#ef9696;
+}
+
+.list_line{
+	width:968px;
+	height:2px;
+	border:1px solid #f0f0f0;
+	background:#f0f0f0;
+}
+
+/*상품정보*/
+.viewimg1{
+	display:inline-block;
+	vertical-align:top;
+}
+
+.viewimg2{
+	display:inline-block;
+	vertical-align:top;
+}
+
+.viewright{
+	display:inline-block;
+	vertical-align:top;
+	font-size:13px;
+}
+
+.view_name{
+	font-size:19px;
+	font-weight:bold;
+}
+
+.view_price{
+	font-size:19px;
+	color:#ae0000;
+	font-weight:bold;
+	display:inline-block;
+}
+
+.productpoint{
+	display:inline-block;
+}
+
+/*수량선택 및 총 가격출력*/
+.paybox{
+	border:1px solid #f0f0f0;
+	width:313px;
+	height:90px;
+}
+
+.paybox input{
+	border:none;
+	background: transparent;
+	width:80px;
+	text-align:right;
+}
+
+#pro_count{
+	width:45px;
+	height:25px;
+}
+
+#total_price{
+	color:#ae0000;
+	font-weight:bold;
+	font-size:19px;
+}
+
+/*장바구니 찜하기 바로구매 버튼*/
+
+.view_button{
+	display:inline-block;
+	width:100px;
+	height:30px;
+	border:1px solid #f0f0f0;
+	font-size:13px;
+	text-align:center;
+	line-height:27px;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+.view_button:hover{
+	display:inline-block;
+	width:100px;
+	height:30px;
+	border:1px solid #f0f0f0;
+	background:#ef9696;
+	font-size:14px;
+	text-align:center;
+	line-height:27px;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+.view_button_order{
+	display:inline-block;
+	width:100px;
+	height:30px;
+	border:1px solid #ef9696;
+	background:#ef9696;
+	font-size:13px;
+	text-align:center;
+	line-height:27px;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+.view_button_order:hover{
+	display:inline-block;
+	width:100px;
+	height:30px;
+	border:1px solid #ef9696;
+	background:#e86464;
+	font-size:14px;
+	text-align:center;
+	line-height:27px;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+/*리뷰 및 상세정보*/
+
+.view_middle1{
+	display:inline-block;
+	width:200px;
+	height:30px;
+	border:1px solid #f0f0f0;
+	background:#f0f0f0;
+	font-size:13px;
+	text-align:center;
+	line-height:27px;
+	font-weight:bold;
+	cursor:pointer;
+}
+.view_middle2{
+	display:inline-block;
+	width:200px;
+	height:30px;
+	border:1px solid #f0f0f0;
+	background:#f0f0f0;
+	font-size:13px;
+	text-align:center;
+	line-height:27px;
+	font-weight:bold;
+	cursor:pointer;
+}
+.view_middle3{
+	display:inline-block;
+	width:200px;
+	height:30px;
+	border:1px solid #f0f0f0;
+	background:#f0f0f0;
+	font-size:13px;
+	text-align:center;
+	line-height:27px;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+.view_detailing{
+	font-size:13px;
+}
+
+#view_review_box{
+	display:none;
+	font-size:13px;
+}
+
+/*문의하기*/
+#view_qna_box{
+	display:none;
+	font-size:13px;
+}
+
+.view_qna{
+	width:968px;
+	height:auto;
+	border:1px solid #f0f0f0;
+}
+
+.view_qna_top{
+	font-size:15px;
+	font-weight:bold;
+}
+
+.view_qna_top_line{
+	width:819px;
+	height:2px;
+	border-bottom:1px solid black;
+}
+
+.view_qna_question{
+	border-bottom:1px solid #ccc;
+	height:70px;
+}
+
+.view_qna_button{
+	display: inline-block;
+	float:right;
+	text-align:center;
+	line-height:30px;
+	width:75px;
+	height:30px;
+	border:1px solid #4b3c8e;
+	color:#4b3c8e;
+	cursor:pointer;
+}
+.view_qna_button:hover{
+	display: inline-block;
+	float:right;
+	text-align:center;
+	line-height:30px;
+	width:75px;
+	height:30px;
+	border:1px solid #4b3c8e;
+	color:white !important;
+	background:#4b3c8e;
+	cursor:pointer;
+}
+
+
+
+
+
+
+

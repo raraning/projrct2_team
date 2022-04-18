@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+.products {
+  display:inline-block;
+  font-size:12px;
+  width: 200px;
+  height: 280px;
+  vertical-align:middle;
+}
+
+.products:hover .productname a{
+	width: 150px;
+	height:35px;
+	word-break:normal;
+    color:#ef9696;
+    font-weight:bold;
+    text-decoration: underline;
+}
+
+.productimg img{
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.products a{
+  text-decoration: none;
+}
+.cate_array{
+	display:inline-block;
+	width:160px;
+	height:30px;
+	border:1px solid #f0f0f0;
+	font-size:13px;
+	text-align:center;
+	line-height:27px;
+	font-weight:bold;
+}
+
+.cate_array1{
+	display:inline-block;
+	width:160px;
+	height:30px;
+	border:1px solid #f0f0f0;
+	font-size:13px;
+	text-align:center;
+	line-height:27px;
+	font-weight:bold;
+}
+
+.cate_array:hover{
+	display:inline-block;
+	width:160px;
+	height:30px;
+	border:1px solid #f0f0f0;
+	font-size:14px;
+	text-align:center;
+	line-height:27px;
+	font-weight:bold;
+	background:#ef9696;
+}
+
+.list_array{
+	width:968px;
+	height:30px;
+	border:1px solid #f0f0f0;
+	background:#f0f0f0;
+}
+
+.list_sun{
+	display:inline-block;
+	width:60px;
+	text-align:center;
+	font-size:12px;
+	line-height:27px;
+}
+
+.list_sun a:hover{
+	display:inline-block;
+	width:60px;
+	text-align:center;
+	font-size:12px;
+	line-height:27px;
+	color:#ef9696;
+}
+
+.ls1{
+	width:80px;
+}
+
+.ls1 a:hover{
+	display:inline-block;
+	width:80px;
+	text-align:center;
+	font-size:12px;
+	line-height:27px;
+	color:#ef9696;
+}
+
+.productimg{
+	width: 150px;
+  	height: 150px;
+}
+
+.productname{
+	width: 150px;
+	height:35px;
+	word-break:normal;
+}
+
+.productprice{
+	font-size:14px;
+	color:#ae0000;
+}
+
+.productline{
+	width:968px;
+	height:2px;
+	border-bottom:1px solid #d1d1d1;
+}
+
+/*페이징*/
+
+.paging{
+	text-align:center;
+}
+
+.pagingbutton1{
+	border:1px solid #d1d1d1;
+	width:25px;
+	height:25px;
+	font-size:15px;
+	background:#ef9696;
+	display:inline-block;
+}
+
+.pagingbutton2{
+	border:1px solid #d1d1d1;
+	width:25px;
+	height:25px;
+	font-size:15px;
+	display:inline-block;
+}
+
+.pagingbutton3{
+	border:1px solid #d1d1d1;
+	width:35px;
+	height:25px;
+	font-size:15px;
+	display:inline-block;
+}

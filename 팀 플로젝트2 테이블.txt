@@ -1,0 +1,85 @@
+
+ 판매,구매
+휴면,일반,탈퇴
+
+
+전
+CREATE TABLE member(
+	id varchar(20) PRIMARY KEY,
+	pass varchar(20),
+	name varchar(12),
+	age int(11),
+	gender varchar(5),
+	email varchar(30),
+	level varchar(4),
+	zipcode varchar(7),
+	zipcode1 varchar(7),  
+	zipcode2 varchar(255),
+	zipcode3 varchar(255),
+	zipcode4 varchar(255),
+	point int(20),
+	cart varchar(255),
+	like_list varchar(255),
+	order_list varchar(255)
+);
+
+후
+create table member(
+	uid int(100) auto_increment,
+	id varchar(20) not null default '',
+	pass varchar(20) not null default '',
+	name varchar(12) not null default '',
+	birth varchar(10) not null default '',
+	gender enum('M','F') default 'F',
+	email varchar(40) not null default '',  
+	zipcode varchar(7) default '', 
+	zipcode1 varchar(255) default '',
+	zipcode2 varchar(255) default '',
+	zipcode3 varchar(255) default '',
+	zipcode4 varchar(255) default '',
+	level varchar(4) default '1',
+	sell_buy enum('X','Y') default 'X',
+	none enum('1','2','3') default '1', 
+	point int(20) default '0',
+ 	pro_manuname varchar(50) default '' COMMENT '제조사명',
+   	pro_salname varchar(50) default '' COMMENT '판매업체명',
+	primary key(uid)
+);
+
+
+CREATE TABLE 'product'(
+   'pro_num' int(20) auto_increment COMMENT '상품번호',
+   'pro_manuname' varchar(50) NOT NULL COMMENT '제조사명',
+   'pro_salname' varchar(50) NOT NULL COMMENT '판매업체명',
+   'pro_name' varchar(200) NOT NULL COMMENT '상품명',
+   'pro_class' varchar(20) NOT NULL COMMENT '분류',
+   'pro_available' int(20) NOT NULL COMMENT '재고수량',
+   'pro_price' int(20) NOT NULL COMMENT '상품가격',
+   'pro_indate' date NOT NULL COMMENT '입고날짜',
+   'pro_proming' varchar(100) NOT NULL COMMENT '제품이미지',
+   'pro_detailing' varchar(100) NOT NULL COMMENT '상품상세정보',
+   'pro_total' int(20) default '' COMMENT '구매횟수'
+   'pro_score' int(20) default '' COMMENT '평점'
+   PRIMARY KEY('pro_num')
+);
+
+CREATE TABLE recipe(
+	`uid` int(11) NOT NULL AUTO_INCREMENT,
+	`id` varchar(16) NOT NULL DEFAULT '',
+	`name` varchar(20) NOT NULL DEFAULT '',
+	`subject` varchar(100) NOT NULL DEFAULT '',
+	`comment` text,
+	`signdate` varchar(30) DEFAULT '',
+	`ref` int(11) DEFAULT 0,
+	`quantity` int(11) DEFAULT 1,
+	`cooktime` int(11) DEFAULT 0,
+	`cooklevel` enum('1','2','3') DEFAULT '1',
+	`ingredient` text,
+	`seasoning` text,
+	`file1` varchar(40) DEFAULT '',
+	`file1_o` varchar(40) DEFAULT '',
+	`file1_s` varchar(40) DEFAULT '',
+	`fid` int(11) default 0,
+	`thread` varchar(20) DEFAULT '',
+	PRIMARY KEY (`uid`)
+);

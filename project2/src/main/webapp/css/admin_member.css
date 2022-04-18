@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+/*=========index==============*/
+
+.all_List_box{
+	width:1300px;
+	height:60px;
+	margin: auto;
+	background-color: #ff9999; 
+}
+
+.List_box{
+	width: 125px;
+	height: 60px;
+	margin: auto;
+	text-align:center;
+	line-height:60px;	/*글자 세로 가운데 정렬*/
+	font-size:13pt;
+	font-weight: bold;
+	background-color: #abbfd0;
+	float: left; 
+	cursor: pointer; /*마우스 손까락*/
+}
+
+/*=========index 끝==============*/
+
+/*==============리스트==================================*/
+.mem_max_box{
+	width:1800px;
+	height:60px;
+	background-color: #abbfd0;
+	margin: auto;
+	border-bottom:1px solid black;
+}
+
+.mem_lest_box{
+	width:127px;
+	height:60px;
+	background-color: #ff9999;
+	float: left;
+	border-right:1px solid black;
+	text-align: center;
+	line-height:60px;	/*글자 세로 가운데 정렬*/
+	font-size:17pt;
+	font-weight: bold;
+}
+
+.mem_lest2_box{
+	width:197px;
+	height:60px;
+	background-color: #ff9999;
+	float: left;
+	border-right:1px solid black;
+	text-align: center;
+	line-height:60px;	/*글자 세로 가운데 정렬*/
+	font-size:17pt;
+	font-weight: bold;
+}
+
+.mem_lest3_box{
+	width:191px;
+	height:60px;
+	background-color: #ff9999;
+	float: left;
+	border-right:1px solid black;
+	text-align: center;
+	line-height:60px;	/*글자 세로 가운데 정렬*/
+	font-size:17pt;
+	font-weight: bold;
+}
+
+.mem_box{
+	width:1800px;
+	height:360px;
+	background-color: #abbfd0;
+	margin: auto;
+	border-bottom:1px solid black;
+}
+.mem_max_box2{
+	width:1800px;
+	height:40px;
+	background-color: #abbfd0;
+	margin: auto;
+	border-bottom:1px solid black;
+}
+
+.mem_lest_box2{
+	width:127px;
+	height:40px;
+	background-color: #ff9999;
+	float: left;
+	border-right:1px solid black;
+	text-align: center;
+	line-height:40px;	/*글자 세로 가운데 정렬*/
+	font-size:12pt;
+	font-weight: bold;
+}
+
+.mem_lest2_box2{
+	width:197px;
+	height:40px;
+	background-color: #ff9999;
+	float: left;
+	border-right:1px solid black;
+	text-align: center;
+	line-height:40px;	/*글자 세로 가운데 정렬*/
+	font-size:12pt;
+	font-weight: bold;
+}
+
+.mem_lest_box3{
+	width:191px;
+	height:40px;
+	background-color: #ff9999;
+	float: left;
+	border-right:1px solid black;
+	text-align: center;
+	line-height:40px;	/*글자 세로 가운데 정렬*/
+	font-size:12pt;
+	font-weight: bold;
+}
+.mem_page_box{
+	width:1800px;
+	height:40px;
+	background-color: #abbfd0;
+	margin: auto;
+	border-bottom:1px solid black;
+	text-align: center;
+	line-height:40px;	/*글자 세로 가운데 정렬*/
+	font-size:12pt;
+	font-weight: bold;
+}
+
+.mem_page_left{
+	width:900px;
+	height:40px;
+	background-color: #abbfd0;
+	margin: auto;
+	border-bottom:1px solid black;
+	line-height:40px;	/*글자 세로 가운데 정렬*/
+	font-size:12pt;
+	font-weight: bold;
+	float: left;
+}
+.mem_page_right{
+	width:900px;
+	height:40px;
+	background-color: #abbfd0;
+	margin: auto;
+	border-bottom:1px solid black;
+	text-align: right;
+	line-height:40px;	/*글자 세로 가운데 정렬*/
+	font-size:12pt;
+	font-weight: bold;
+	float: left;
+}
+
+.mem_button{
+	width:60px;
+	height:30px;
+	font-size:13pt;
+}
+/*==============리스트 끝==================================*/

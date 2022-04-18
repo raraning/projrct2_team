@@ -1,0 +1,177 @@
+@charset "UTF-8";
+
+.car_list_all_box{
+	width:850px;
+	margin: auto;
+	
+}
+
+.car_list_main_name_box{
+	width:850px;
+	height: 50px;
+	line-height:50px;	/*글자 세로 가운데 정렬*/
+	font-size:25px;
+	text-align: center;
+	cursor:pointer;
+	display:inline-block;
+	border-bottom: 2px solid #d1d1d1;
+}
+
+.car_list_main_name_box2{
+	width:850px;
+	height: 50px;
+	line-height:50px;	/*글자 세로 가운데 정렬*/
+	font-size:25px;
+	text-align: center;
+	cursor:pointer;
+	display:inline-block;
+	border-bottom: 2px solid #d1d1d1;
+}
+
+/*-------------------------------*/
+
+.car_list_check_box{
+	width:50px;
+	height: 50px;
+	text-align:center;
+	border-bottom: 2px solid #d1d1d1;
+	float: left;
+}
+
+
+.car_list1_name_box{
+	width:800px;
+	height: 50px;
+	margin: auto;
+	line-height:50spx;	/*글자 세로 가운데 정렬*/
+	font-size:15pt;
+	font-weight: bold;
+	float: left;
+}
+
+/*-------------------------------*/
+
+.car_list_name_box{
+	width:850px;
+	height: 200px;
+	border-bottom: 2px solid #d1d1d1;
+}
+
+.car_list_check_box2{
+	width:50px;
+	height: 200px;
+	border-bottom: 2px solid #d1d1d1;
+	margin: auto;
+	text-align:center;
+	line-height:200px;	/*글자 세로 가운데 정렬*/
+	float: left;
+}
+
+.car_list_img1{
+	width:196px;
+	height: 200px;
+	float: left;
+	border-left: 2px solid #d1d1d1;
+	border-right: 2px solid #d1d1d1;
+	background:#f8f8f8;
+}
+
+.car_list_name_box2{
+	width:394px;
+	height: 200px;
+	float: left;
+	border-right: 2px solid #d1d1d1;
+}
+
+.car_list_name_box3{
+	width:100px;
+	height: 200px;
+	border-right: 2px solid #d1d1d1;
+	float: left;
+	margin: auto;
+	line-height:200px;	/*글자 세로 가운데 정렬*/
+	font-size:15pt;
+	font-weight: bold;
+}
+
+.car_list_name_box4{
+	width:202px;
+	height: 200px;
+	border-right: 2px solid #d1d1d1;
+	float: left;
+	margin: auto;
+	line-height:200px;	/*글자 세로 가운데 정렬*/
+	font-size:15pt;
+	font-weight: bold;
+}
+
+.car_list_name2_box2{
+	width:394px;
+	height: 78px;
+	line-height:98px;	/*글자 세로 가운데 정렬*/
+	font-size:15pt;
+	font-weight: bold;
+	border-bottom: 2px solid #d1d1d1;
+}
+
+.car_list_name3_box2{
+	width:394px;
+	height: 100px;
+	line-height:78px;	/*글자 세로 가운데 정렬*/
+	text-align:right;
+	font-size:15pt;
+	font-weight: bold;
+}
+
+.car_list_button_all_box{
+	width:850px;
+	height:50px;
+	margin: auto;
+	line-height:50px;	/*글자 세로 가운데 정렬*/
+	font-size:25px;
+	text-align: center;
+	cursor:pointer;
+	display:inline-block;
+}
+
+.car_list_button{
+	width:60px;
+	height: 40px;
+	text-align:center;
+	margin: auto;
+	line-height:40px;	/*글자 세로 가운데 정렬*/
+	font-size:14pt;
+	font-weight: bold;
+}
+
+.car_list_button2{
+	width:60px;
+	height: 20px;
+	margin: auto;
+	text-align:center;
+	line-height:20px;	/*글자 세로 가운데 정렬*/
+	font-size:12pt;
+	font-weight: bold;
+	border:none;
+}
+
+.car_list_button3{
+	width:50px;
+	height: 20px;
+	margin: auto;
+	text-align:center;
+	line-height:20px;	/*글자 세로 가운데 정렬*/
+	font-size:12pt;
+	font-weight: bold;
+	border:none;
+}
+
+.car_list_main_page_box{
+	width:850px;
+	height: 50px;
+	line-height:50px;	/*글자 세로 가운데 정렬*/
+	font-size:25px;
+	text-align: center;
+	cursor:pointer;
+	display:inline-block;
+}

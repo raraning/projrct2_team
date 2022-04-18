@@ -1,0 +1,113 @@
+@charset "UTF-8";
+#login_left{
+	width:790px;
+	display:inline-block;
+}
+#login_right{
+	width:400px;
+	display:inline-block;
+}
+.login_main_box{
+	height:720px;
+}
+
+.login_mid_box{
+	width:460px;
+	height:600px;
+	display:inline-block;
+}
+
+.login_main_name{
+	height:40px;
+	text-align: center;
+	line-height:40px;	/*글자 세로 가운데 정렬*/
+	font-size:17pt;
+	font-weight: bold;
+	padding-right:100px;
+}
+
+.login_name_box{
+	width:350px;
+	height:40px;
+	line-height:40px;	/*글자 세로 가운데 정렬*/
+	font-size:13pt;
+	font-weight: bold;
+}
+
+.login_name_box_found{
+	height:40px;
+	line-height:40px;	/*글자 세로 가운데 정렬*/
+	font-size:10pt;
+	display:inline-block;
+}
+
+.login_input_box{
+	width:98%;
+	height:97%;
+	line-height:40px;	/*글자 세로 가운데 정렬*/
+	font-size:11pt;
+	font-weight: bold;
+	border:1px solid #f0f0f0;
+
+}
+
+.login_input_jender{
+	width:20px;
+	height:20px;
+	line-height:40px;	/*글자 세로 가운데 정렬*/
+	font-size:14pt;
+	font-weight: bold;
+	border:1px solid #cdcdcd;
+
+}
+
+.login_button_box1{
+	width:350px;
+	height:35px;
+	margin: auto;
+	text-align: center;
+	line-height:35px;	/*글자 세로 가운데 정렬*/
+	font-size:13pt;
+	font-weight: bold;
+	border:1px solid #f0f0f0;
+	cursor:pointer;
+}
+
+.login_button_box1:hover{
+	width:350px;
+	height:35px;
+	margin: auto;
+	text-align: center;
+	line-height:35px;	/*글자 세로 가운데 정렬*/
+	font-size:13pt;
+	font-weight: bold;
+	border:1px solid #f0f0f0;
+	background:#ef9696;
+	cursor:pointer;
+}
+
+.login_button_box2{
+	width:350px;
+	height:35px;
+	margin: auto;
+	text-align: center;
+	line-height:35px;	/*글자 세로 가운데 정렬*/
+	font-size:13pt;
+	font-weight: bold;
+	border:1px solid #f0f0f0;
+	background:white;
+	cursor:pointer;
+}
+
+.login_button_box2:hover{
+	width:350px;
+	height:35px;
+	margin: auto;
+	text-align: center;
+	line-height:35px;	/*글자 세로 가운데 정렬*/
+	font-size:13pt;
+	font-weight: bold;
+	border:1px solid #f0f0f0;
+	background:#ef9696;
+	cursor:pointer;
+}

@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+.memsell_max_box{
+	width:1500px;
+	height:60px;
+	background-color: #abbfd0;
+	margin: auto;
+	border-bottom:1px solid black;
+}
+
+.memsell_lest_box{
+	width:127px;
+	height:60px;
+	background-color: #ff9999;
+	float: left;
+	border-right:1px solid black;
+	text-align: center;
+	line-height:60px;	/*글자 세로 가운데 정렬*/
+	font-size:17pt;
+	font-weight: bold;
+}
+
+.memsell_lest2_box{
+	width:197px;
+	height:60px;
+	background-color: #ff9999;
+	float: left;
+	border-right:1px solid black;
+	text-align: center;
+	line-height:60px;	/*글자 세로 가운데 정렬*/
+	font-size:17pt;
+	font-weight: bold;
+}
+
+.memsell_lest3_box{
+	width:300px;
+	height:60px;
+	background-color: #ff9999;
+	float: left;
+	border-right:1px solid black;
+	text-align: center;
+	line-height:60px;	/*글자 세로 가운데 정렬*/
+	font-size:17pt;
+	font-weight: bold;
+}
+
+.memsell_box{
+	width:1500px;
+	height:360px;
+	background-color: #abbfd0;
+	margin: auto;
+	border-bottom:1px solid black;
+}
+
+.memsell_page_box{
+	width:1500px;
+	height:40px;
+	background-color: #abbfd0;
+	margin: auto;
+	border-bottom:1px solid black;
+	text-align: center;
+	line-height:40px;	/*글자 세로 가운데 정렬*/
+	font-size:12pt;
+	font-weight: bold;
+}
+
+.memsell_max_box2{
+	width:1500px;
+	height:40px;
+	background-color: #abbfd0;
+	margin: auto;
+	border-bottom:1px solid black;
+}
+
+.memsell_page_left{
+	width:585px;
+	height:40px;
+	background-color: #abbfd0;
+	margin: auto;
+	border-bottom:1px solid black;
+	line-height:40px;	/*글자 세로 가운데 정렬*/
+	font-size:12pt;
+	font-weight: bold;
+	float: left;
+}
+.memsell_page_right{
+	width:585px;
+	height:40px;
+	background-color: #abbfd0;
+	margin: auto;
+	border-bottom:1px solid black;
+	text-align: right;
+	line-height:40px;	/*글자 세로 가운데 정렬*/
+	font-size:12pt;
+	font-weight: bold;
+	float: left;
+}
+
+.memsell_button{
+	width:60px;
+	height:30px;
+	font-size:13pt;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

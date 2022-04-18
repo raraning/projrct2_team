@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+/*===========width_lft===============*/
+
+#width_5_left{
+	width:5px;
+	height:100%;
+	float: left; 
+}
+
+#width_10_left{
+	width:10px;
+	height:100%;
+	float: left;
+	
+}
+
+#width_20_left{
+	width:20px;
+	height:100%;
+	float: left;
+	
+}
+
+#width_200_left{
+	width:200px;
+	height:100%;
+	float: left;
+	
+}
+
+#width_240_left{
+	width:240px;
+	height:100%;
+	float: left;
+	
+}
+
+#width_260_left{
+	width:260px;
+	height:100%;
+	float: left;
+	
+}
+
+#width_400_left{
+	width:400px;
+	height:100%;
+	float: left;
+	
+}
+
+#width_600_left{
+	width:600px;
+	height:100%;
+	float: left;
+	
+}
+
+/*===========width_lft 끝===============*/
+
+
+/*===========height===============*/
+#height_10{
+	width:100%;
+	height:10px;
+}
+
+#height_5{
+	width:100%;
+	height:5px;
+	
+}
+
+#height_20{
+	width:100%;
+	height:20px;
+}
+
+#height_50{
+	width:100%;
+	height:50px;
+}
+
+#height_70{
+	width:100%;
+	height:70px;
+}
+
+
+#height_100{
+	width:100%;
+	height:100px;
+}
+
+#height_120{
+	width:100%;
+	height:120px;
+}
+
+#height_180{
+	width:100%;
+	height:180px;
+	
+}
+
+
+#height_200{
+	width:100%;
+	height:200px;
+	
+}
+
+#height_220{
+	width:100%;
+	height:220px;
+	
+}
+
+
+/*===========height 끝===============*/
+
+
+
+
+

@@ -1,0 +1,167 @@
+@charset "UTF-8";
+
+/*상단*/
+
+.pro_listtop{
+	display: inline-block;
+	width:150px;
+	height:35px;
+	font-size:16px;
+	border:1px solid #d1d1d1;
+	line-height:32px;
+	text-align:center;
+	font-weight:bold;
+	background:#f8f8f8;	
+}
+
+.pro_listtop:hover{
+	display: inline-block;
+	width:150px;
+	height:35px;
+	font-size:16px;
+	border:1px solid #d1d1d1;
+	line-height:32px;
+	text-align:center;
+	font-weight:bold;
+	background:#ef9696;
+}
+
+.pro_listempty{
+	display: inline-block;
+	width:760px;
+}
+.pro_listempty2{
+	display: inline-block;
+	width:30px;
+}
+
+#search{
+	width:334px;
+	height:40px;
+	border:1px solid #d1d1d1;
+}
+	
+.pro_listbutton{
+	width:40px;
+	height:44px;
+	border:1px solid #d1d1d1;
+	background:#d1d1d1;
+	line-height:38px;
+	cursor:pointer;
+	position:absolute;
+}
+
+.pro_searchimg{
+	width:25px;
+	height:25px;
+	padding-top:9px;
+}
+
+.field{
+	width:120px;
+	height:43px;
+	border:1px solid #d1d1d1;
+	cursor:pointer;
+}
+
+/*리스트*/
+.pro_listmid{
+	display: inline-block;
+	font-size:12px;
+}
+
+.plleft{
+	width:500px;
+}
+
+.plright{
+	width:400px;
+}
+
+.productlist{
+	width:860px;
+	height:200px;
+	border:1px solid #d1d1d1;
+}
+
+.pro_listcontent{
+	display: inline-block;
+}
+
+.pro_listcontent2{
+	display: inline-block;
+	height:200px;
+	position:absolute;
+}
+
+.pro_listproduct{
+	display:inline-block;
+	width:380px;
+}
+.pro_listmode{
+	display:inline-block;
+	text-align:center;
+	height:195px;
+	vertical-align:middle;
+}
+
+.pro_listmodebutton{
+	width:150px;
+	height:35px;
+	font-size:16px;
+	border:1px solid #d1d1d1;
+	line-height:32px;
+	text-align:center;
+	background:#f8f8f8;	
+	cursor:pointer;
+}
+.pro_listmodebutton:hover{
+	width:150px;
+	height:35px;
+	font-size:16px;
+	border:1px solid #d1d1d1;
+	line-height:32px;
+	text-align:center;
+	background:#ef9696;	
+	cursor:pointer;
+}
+
+/*페이징*/
+
+.paging{
+	text-align:center;
+}
+
+.pagingbutton1{
+	border:1px solid #d1d1d1;
+	width:25px;
+	height:25px;
+	font-size:15px;
+	background:#ef9696;
+	display:inline-block;
+}
+
+.pagingbutton2{
+	border:1px solid #d1d1d1;
+	width:25px;
+	height:25px;
+	font-size:15px;
+	display:inline-block;
+}
+
+.pagingbutton3{
+	border:1px solid #d1d1d1;
+	width:35px;
+	height:25px;
+	font-size:15px;
+	display:inline-block;
+}
+
+
+
+
+
+
+
+
+
